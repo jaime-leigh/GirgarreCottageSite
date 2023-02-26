@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--'viewport' is what you can see on your screen. This tag sets the width of the website to your device i.e. if your monitor is 1920 px then it will show as 1920. 
+    'initial-scale=1.0' means 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__home">
+
+            <img class="header__home__img" src="/site/images/logos/GCC_home.png" alt="">
+
+            <div class="dropdown">
+                <button onclick="dropDown()" class="dropbtn">~ Menu ~</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <a href="about.html">About</a>
+                    <a href="contribute.html">Contribute</a>
+                    <a href="services.html">Services</a>
+                    <a href="whatson.html">What's on</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="butterflypatch.html">The Butterfly Patch</a>
+                    <a href="contact.html"">Contact</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class=" header__navbar">
+
+                        <p class=" header__navbar__item"><a href="about.html">About</a></p>
+                        <p class="header__navbar__item"><a href="index.html">Contribute</a></p>
+                        <p class="header__navbar__item"><a href="services.html">Services</a></p>
+                        <p class="header__navbar__item"><a href="index.html">What's On</a></p>
+                        <p class="header__navbar__item"><a href="index.html">Gallery</a></p>
+                        <p class="header__navbar__item"><a href="index.html">The Butterfly Patch</a></p>
+                        <p class="header__navbar__item"><a href="index.html">Contact</a></p>
+
+                </div>
+
+                <h1 class="header__text">Girgarre Community Cottage</h1>
+
+
+    </header>
+
+    <main class="homepage">
+
+        <!------------------------- ABOUT ----------------------------->
+        <section class="homepage__about">
+            <h1 class="homepage__about__heading">About Us</h1>
+
+            <div class="text__blurb">
+                <div class="homepage__about__pics text__blurb__component">
+                    <img class="homepage__about__pics__pic__hideme orange"
+                        src="/site/images/cottage_pics/utility_square.jpg" alt="">
+                    <img class="homepage__about__pics__pic" src="/site/images/cottage_pics/seniors_square.jpg" alt="">
+                    <img class="homepage__about__pics__pic__hideme" src="/site/images/cottage_pics/cottage_square.jpg"
+                        alt="">
+                </div>
+
+            </div>
+            <div class="text__blurb">
+
+                <p class="homepage__about__text text__blurb__component">The Girgarre Community Cottage (GCC) is a
+                    safe space that has been
+                    providing fun, laughter, friendship and learning for 30 years and is looking forward to the next
+                    30 and
+                    more! Join classes, learn skills & access holiday activities. The Community Centre exists to
+                    help,
+                    support and encourage people of this rural area to enrich their
+                    lives by developing friendships and new learning skills.
+                    <br>
+                    <button><a href="about.html">read more</a> </button>
+                </p>
+            </div>
+
+
+        </section>
+        <!------------------- SERVICES ----------------------->
+        <section class="homepage__services">
+            <h1 class="homepage__services__heading">Come to the Cottage for</h1>
+            <div class="homepage__services__row">
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay')" onmouseleave="mouseLeave('hiddenOverlay')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/library_printing.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Library & Printing
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay2')" onmouseleave="mouseLeave('hiddenOverlay2')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/classes.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay2">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Classes & Activities
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay3')" onmouseleave="mouseLeave('hiddenOverlay3')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/com_car.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay3">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Community Car
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage__services__column">
+
+                    <div onmouseenter="mouseEnter('hiddenOverlay4')" onmouseleave="mouseLeave('hiddenOverlay4')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/donate.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay4">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Donations Welcome
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="homepage__services__row">
+
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay5')" onmouseleave="mouseLeave('hiddenOverlay5')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/computer_help.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay5">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Computer Use/Help
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay6')" onmouseleave="mouseLeave('hiddenOverlay6')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/meals.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay6">
+
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Meals & Socialising
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="homepage__services__column">
+                    <div onmouseenter="mouseEnter('hiddenOverlay7')" onmouseleave="mouseLeave('hiddenOverlay7')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/food_parcel.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay7">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Food Assistance
+                            </div>
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="homepage__services__column">
+
+                    <div onmouseenter="mouseEnter('hiddenOverlay8')" onmouseleave="mouseLeave('hiddenOverlay8')"
+                        class="homepage__services__column__div">
+                        <img id="serviceimg" src="/site/images/services/volunteer.jpg">
+                        <div class="homepage__services__column__div__overlay noneDisplay" id="hiddenOverlay8">
+                            <div class="homepage__services__column__div__text">
+
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                                Volunteer
+                            </div>
+                            <div class="homepage__services__column__div__text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </section>
+        <!------------------------ BUTTERFLY PATCH -------------------------->
+        <section class="homepage__butterflyPatch">
+            <img class="homepage__butterflyPatch__heading" src="/site/images/logos/BPatch_logo_circ.png" alt="">
+            <div class="homepage__butterflyPatch__div">
+                <div class="homepage__butterflyPatch__div__background">
+                    <p class="homepage__butterflyPatch__div__overlay">The butterfly patch is the Cottage's very own
+                        vegetable pantry
+                        <span class="homepage__butterflyPatch__div__overlay__hidden">
+                            With the help of some wonderful volunteers and some
+                            very generous grants we
+                            were able to plant a prolific garden on premise...</span>
+                    </p>
+                    <button class="homepage__butterflyPatch__div__button">read more</button>
+                </div>
+
+                <img class="homepage__butterflyPatch__div__picture" src="/site/images/cottage_pics/bpatch1.jpg" alt="">
+
+
+            </div>
+
+
+
+        </section>
+
+        <!------------- EVENTS ------------------->
+        <section class="homepage__calendar">
+            <h1 class="homepage__calendar__heading">2023/2024 Calendar</h1>
+            <img class="homepage__calendar__picture" src="/site/images/whatison.png" alt="">
+            <br>
+
+        </section>
+
+        <section class="homepage__more" aria-label="more events at the cottage">
+
+            <h2 class="homepage__more__heading">More Events at the Cottage</h2>
+            <div class="homepage__more__flex">
+                <!-- CAROUSEL -->
+
+                <div class="carousel">
+
+
+
+                    <!-- DIV CONTAINER WRAPPING THE IMAGES -->
+                    <div class="carousel__track-container">
+
+                        <!-- AN UNORDERED LIST WHERE THE ITEMS ARE YOUR CAROUSEL IMAGES -->
+                        <ul class="carousel__track">
+                            <li class="carousel__slide current-slide">
+                                <img class="carousel__image" src="/site/images/carousel/anzac.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="/site/images/carousel/gardenhelpers.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="/site/images/carousel/strengthbalance.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- PREVIOUS CAROUSEL BUTTON -->
+                    <button class="carousel__button carousel__button--left is-hidden">
+                        <img src="/site/images/carousel/left-arrow.png" alt="">
+                    </button>
+
+
+                    <!-- NEXT CAROUSEL BUTTON -->
+                    <button class="carousel__button carousel__button--right">
+                        <img src="/site/images/carousel/right-arrow.png" alt="">
+                    </button>
+
+                    <!-- DIV SECTION FOR THE 3 CIRCLES BELOW CAROUSEL, STYLED IN CSS -->
+                    <div class="carousel__nav">
+                        <button class="carousel__indicator current-slide"></button>
+                        <button class="carousel__indicator"></button>
+                        <button class="carousel__indicator"></button>
+                    </div>
+                </div>
+
+
+
+                <div class="homepage__more__list">
+                    <h3 class="homepage__more__list__heading">
+                        Events we run annually
+                    </h3>
+                    <ul>
+                        <li class="homepage__more__list__point">Australia Day</li>
+                        <li class="homepage__more__list__point">Christmas Carols</li>
+                        <li class="homepage__more__list__point">Biggest Morning Tea</li>
+                        <li class="homepage__more__list__point">Mother's Day Classic</li>
+                        <li class="homepage__more__list__point">Christmas in July</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="homepage__newsletter">
+            <h2 class="homepage__newsletter__heading">Sign up for our Newsletter</h2>
+            <p>You will receive a digital version of our newsletter once a month. No other spam.</p>
+
+            <div class="homepage__newsletter__plug">MAILCHIMP PLUGIN</div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <div class="footer-icons">
+            <img class="icon-item" src="/site/images/logos/Vic-logo-black.png" alt="Victoria State Government logo">
+            <img class="icon-item" src="/site/images/logos/GirgarreGroup_logo.png" alt="Girgarre Community Group logo">
+            <img class="icon-item" src="/site/images/logos/girgarre_logo.png" alt="Girgarre Township logo">
+            <img class="icon-item" src="/site/images/logos/Hub_logo.png" alt="The Girgarre-Stanhope Hub logo">
+            <img class="icon-item" src="/site/images/logos/nh_logo.jpg" alt="Neighbourhood Houses Victoria logo">
+            <img class="icon-item" src="/site/images/logos/BPatch_logo.png" alt="The Butterfly Patch logo">
+
+        </div>
+
+        <div class="footer-text">
+            <div class="text-item">
+                <h3>Hours</h3>
+                <p>Mon-Thurs <br>10am - 3 pm</p>
+            </div>
+            <div class="text-item">
+                <div class="footer-blurb">
+                    <p id="small-text">Girgarre cottage is a Neighbourhood House located in Girgarre, Central
+                        Victoria.
+                    </p>
+
+
+                </div>
+                <br>
+                <p id="small-text" class="copyright">© Girgarre Community Group 2023
+                </p>
+
+
+            </div>
+            <div class="text-item">
+                <div class="socials-trio">
+                    <img class="socials" src="/site/images/icons/email.png" alt="email icon">
+                    <img class="socials" src="/site/images/icons/facebook.png" alt="Facebook icon">
+                    <img class="socials" src="/site/images/icons/instagram.png" alt="Instagram icon">
+
+                </div>
+                <p class="site-by" id="small-text"><br> Site by <br> Jamie Basic
+            </div>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
