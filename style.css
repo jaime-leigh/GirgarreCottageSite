@@ -314,7 +314,7 @@ footer {
 .header__text {
   text-align: center;
   background-image: radial-gradient(circle, rgba(1, 104, 85, 0.7) 50%, rgba(255, 255, 255, 0.4) 100%), url("site/images/ladies_gardening.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   display: block;
   font-size: 3rem;
   padding: 15rem 0;
