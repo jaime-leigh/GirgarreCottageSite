@@ -131,3 +131,50 @@ dotsNav.addEventListener('click', e => {
 
 
 });
+
+///////////////CONTACT MAP///////////////////////
+
+function initMap() {
+    const cottage = { lat: -36.394481, lng: 144.979850 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: cottage,
+    });
+
+    const marker = new google.maps.Marker({
+        position: cottage,
+        map: map,
+    });
+
+}
+window.initMap = initMap;
+
+/////Back to top button///////
+
+function back_to_top() {
+    var link = document.getElementById("back-to-top");
+    var amountScrolled = 30;
+
+    window.addEventListener('scroll', function (e) {
+        if (window.pageYOffset > amountScrolled) {
+            link.classList.add('showop');
+        } else {
+            link.className = 'back-to-top';
+        }
+    });
+
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        var distance = 0 - window.pageYOffset;
+        var increments = distance / (500 / 16);
+        function animateScroll() {
+            window.scrollBy(0, increments);
+            if (window.pageYOffset <= document.body.offsetTop) {
+                clearInterval(runAnimation);
+            }
+        };
+        // Loop the animation function
+        var runAnimation = setInterval(animateScroll, 16);
+    });
+}
