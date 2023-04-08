@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--'viewport' is what you can see on your screen. This tag sets the width of the website to your device i.e. if your monitor is 1920 px then it will show as 1920. 
+    'initial-scale=1.0' means 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope&family=Amatic+SC:wght@700&family=Righteous&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <script src="/site/js/script.js" defer></script>
+</head>
+
+<body onload="back_to_top()">
+
+    <a href="#" id="back-to-top" class="back-to-top"><img src="/site/images/icons/arrow_top.png" alt=""></a>
+    <header class="header">
+        <div class="header__home">
+
+            <a href="index.html"><img class="header__home__img" src="/site/images/logos/GCC_home.png" alt=""></a>
+
+            <div class="dropdown">
+                <button onclick="dropDown()" class="dropbtn">~ Menu ~</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="whatson.html">What's on</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="butterflypatch.html">The Butterfly Patch</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class=" header__navbar">
+
+            <p class=" header__navbar__item"><a href="index.html">Home</a></p>
+            <p class="header__navbar__item"><a href="about.html">About</a></p>
+            <p class="header__navbar__item active"><a href="services.html">Services</a></p>
+            <p class="header__navbar__item"><a href="whatson.html">What's On</a></p>
+            <p class="header__navbar__item"><a href="gallery.html">Gallery</a></p>
+            <p class="header__navbar__item"><a href="butterflypatch.html">The Butterfly Patch</a></p>
+            <p class="header__navbar__item"><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div class="header__text">
+            <h1 class="header__text__words">Services</h1>
+        </div>
+
+
+    </header>
+
+    <main class="services">
+
+        <!------------------------- Services ----------------------------->
+
+
+        <h1 class="services__heading">Come to the <span class="cursive_emphasis">Cottage</span> for</h1>
+
+
+
+        <div class="text__blurb">
+
+            <div class="flex-container">
+                <div class="flex-item-left ">
+                    <img src="/site/images/services/library_printing.jpg" alt="">
+                </div>
+                <div class="flex-item-right">
+                    <br>
+                    <h2 class="after_dec">Library <span class="cursive_emphasis">and</span> Printing services</h2>
+                    <p>The Girgarre Library has a small selection of books and access to 3 million books via Campaspe
+                        library. You can sign up for a library card, browse our selection or order books with our staff
+                    </p>
+                    <p>Printing and photocopying are available at a small cost. </p>
+                </div>
+
+                <div class="flex-item-left-text">
+                    <br>
+                    <h2 class="after_dec">Classes <span class="cursive_emphasis">and</span> Activities</h2>
+                    <p>There are a variety of local groups to meet up with other members for a fun class or activity,
+                        such as:</p>
+                    <p>Line Dancing
+                        🌟Playgroup 🌟Quilting/Patchwork 🌟Strength & Balance 🌟Words on Wheels 🌟Garden Gurus 🌟Ukelele
+                        Group 🌟Carpet Bowls</p>
+
+                </div>
+                <div class="flex-item-right-img">
+                    <img src="/site/images/services/classes.jpg" alt="">
+
+                </div>
+
+                <div class="flex-item-left hide">
+                    <img src="/site/images/services/com_car.jpg" alt="">
+                </div>
+                <div class="flex-item-right">
+                    <br>
+                    <h2 class="after_dec"><span class="cursive_emphasis">Community</span> Car</h2>
+                    <p>The car is available to transport community members to medical appointments locally or further
+                        afield to Melbourne or Bendigo. All it takes is a call to the Girgarre Cottage with the details
+                        and we arrange the driver.
+
+                        The car is driven by volunteers who will take the passenger to their appointment, wait for them,
+                        then drive home again. There is a charge for this service.</p>
+                </div>
+
+                <div class="flex-item-left-text">
+                    <br>
+                    <h2 class="after_dec">Give <span class="cursive_emphasis">back</span></h2>
+                    <p>We appreciate any donations we receive to help with the services we provide, for example:</p>
+                    <p>♥To assist with the services provided by the cottage, eg. meals, seniors outings, special events,
+                        etc.
+                        ♥For the running & maintenance of the community car
+                        ♥Toward the production and delivery of the monthly Girgarre Gazette as printing and postage
+                        costs are always increasing.</p>
+
+                </div>
+                <div class="flex-item-right-img hide">
+                    <img src="/site/images/services/donate.jpg" alt="">
+
+                </div>
+
+
+                <div class="flex-item-left ">
+                    <img src="/site/images/services/computer_help.jpg" alt="">
+                </div>
+                <div class="flex-item-right">
+                    <br>
+                    <h2 class="after_dec">Computer <span class="cursive_emphasis">Assistance</span></h2>
+                    <p>A computer hub is available for use by community members free of cost (except small charges for
+                        downloads/printing) or we can help out with computer needs / technical help.</p>
+                </div>
+
+                <div class="flex-item-left-text">
+                    <br>
+                    <h2 class="after_dec">Meals <span class="cursive_emphasis">and</span> Socialising</h2>
+                    <p>LEach week Girgarre Seniors meet up to socialise and have lunch either onsite at the Girgarre
+                        Community Cottage or hop on a bus for an outing offsite.
+
+                        Lovely meals are cooked and delivered to community members that may be ill or incapacitated and
+                        confined to their homes.
+
+                        Also, we organise and cater for special gatherings/events, for example, the Australia Day Awards
+                        or Australia’s Biggest Morning Tea.</p>
+
+                </div>
+                <div class="flex-item-right-img hide">
+                    <img src="/site/images/services/meals.jpg" alt="">
+
+                </div>
+                <div class="flex-item-left">
+                    <img src="/site/images/services/food_parcel.jpg" alt="">
+                </div>
+                <div class="flex-item-right">
+                    <br>
+                    <h2 class="after_dec">Food <span class="cursive_emphasis">Assistance</span></h2>
+                    <p>We provide food parcels for community members on request. These parcels may include fresh
+                        produce, frozen food/meals, pantry items and toiletries.</p>
+                </div>
+
+                <div class="flex-item-left-text">
+                    <br>
+                    <h2 class="after_dec">Volunteer <span class="cursive_emphasis">With</span> Us</h2>
+                    <p>We are always looking for wonderful people to volunteer some time toward one of the many services
+                        or activities we provide.
+
+                        All our volunteers are highly valued as it would be impossible to run the cottage and provide
+                        services to the community without their help.
+
+                        Please contact the Girgarre Community Cottage on (03) 5854 6482 if you are interested in
+                        volunteering.</p>
+
+                </div>
+                <div class="flex-item-right-img hide">
+                    <img src="/site/images/services/volunteer.jpg" alt="">
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="spacer">
+
+            </div>
+
+    </main>
+
+    <footer>
+
+        <div class=" footer-icons">
+            <img class="icon-item" src="/site/images/logos/Vic-logo-black.png" alt="Victoria State Government logo">
+            <img class="icon-item" src="/site/images/logos/GirgarreGroup_logo.png" alt="Girgarre Community Group logo">
+            <img class="icon-item" src="/site/images/logos/girgarre_logo.png" alt="Girgarre Township logo">
+            <img class="icon-item" src="/site/images/logos/Hub_logo.png" alt="The Girgarre-Stanhope Hub logo">
+            <img class="icon-item" src="/site/images/logos/nh_logo.jpg" alt="Neighbourhood Houses Victoria logo">
+            <img class="icon-item" src="/site/images/logos/BPatch_logo.png" alt="The Butterfly Patch logo">
+
+        </div>
+
+        <div class="footer-text">
+            <div class="text-item">
+                <h3>Hours</h3>
+                <p>Mon-Thurs <br>10am - 3 pm</p>
+            </div>
+            <div class="text-item">
+                <div class="footer-blurb">
+                    <p id="small-text">Girgarre cottage is a Neighbourhood House located in Girgarre, Central
+                        Victoria.
+                    </p>
+
+
+                </div>
+                <br>
+                <p id="small-text" class="copyright">© Girgarre Community Group 2023
+                </p>
+
+
+            </div>
+            <div class="text-item">
+                <div class="socials-trio">
+                    <img class="socials" src="/site/images/icons/email.png" alt="email icon">
+                    <img class="socials" src="/site/images/icons/facebook.png" alt="Facebook icon">
+                    <img class="socials" src="/site/images/icons/instagram.png" alt="Instagram icon">
+
+                </div>
+                <p class="site-by" id="small-text"><br> Site by <br> Jamie Basic
+            </div>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
