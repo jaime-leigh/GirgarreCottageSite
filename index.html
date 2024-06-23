@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girgarre Community Cottage - Neighbourhood House</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/script.js" defer></script>
+  </head>
+  <body onload="back_to_top()">
+    <a href="#" id="back-to-top" class="back-to-top"
+      ><img src="assets/icons/arrow_top.png" alt=""
+    /></a>
+
+    <button
+      class="mobile-navbar-toggle"
+      aria-controls="navbar__list"
+      aria-expanded="false"
+    ></button>
+
+    <nav class="navbar">
+      <ul class="navbar__list" id="navbar__list" data-visible="false">
+        <li class="navbar__list__item navbar__list__item--active">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="services.html">Services</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="whatsOn.html">What's On</a>
+        </li>
+        <div class="dropdown">
+          <a href="contribute.html"
+            ><button class="navbar__list__item dropbtn">Contribute</button></a
+          >
+          <div class="dropdown-content">
+            <a href="volunteer.html">Volunteer</a>
+            <a href="giveBack.html">Give Back</a>
+            <a href="butterflyPatch.html">The Butterfly Patch</a>
+          </div>
+        </div>
+        <li class="navbar__list__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header">
+      <a href="index.html"
+        ><h1 class="header__title">Girgarre Community Cottage</h1></a
+      >
+      <div class="greenLine"></div>
+      <div class="flex__twoItem">
+        <div class="flex__twoItem--1">
+          <ul class="header__list">
+            <li class="header__list__item">Assistance</li>
+            <li class="header__list__item">Laughter</li>
+            <li class="header__list__item">Friends</li>
+            <li class="header__list__item">Learning</li>
+            <li class="header__list__item">Support</li>
+          </ul>
+        </div>
+        <div class="header__img flex__twoItem--1">
+          <img src="assets/images/headerhero.png" alt="" />
+        </div>
+        <div class="header__logo">
+          <a href="index.html"
+            ><img src="assets/images/LOGOMONOCHROME.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="greenLineShort"></div>
+    </div>
+
+    <main class="home">
+      <div class="home__about">
+        <div class="flex__twoItem">
+          <img
+            class="flex__twoItem--1 home__about__img"
+            src="/assets/images/sign.jpg"
+            alt=""
+          />
+          <div class="flex__twoItem--1">
+            <h2 class="home__about__heading">About</h2>
+            <p class="home__about__text">
+              The Girgarre Community Cottage (GCC) is a safe space that has been
+              providing fun, laughter, friendship and learning for 30 years and
+              is looking forward to the next 30 and more! Join classes, learn
+              skills & access holiday activities. The Community Centre exists to
+              help, support and encourage people of this rural area to enrich
+              their lives by developing friendships and new learning skills.
+              <br />
+            </p>
+            <div class="flex__twoItemTop">
+              <a href="about.html"
+                ><button class="home__about__button flex__twoItemTOP--1">
+                  Read More
+                </button></a
+              >
+              <img
+                class="home__about__textimg flex__twoItemTop--1"
+                src="/assets/images/About.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home__services home__services__container">
+        <div class="home__services__row home__services__first-row">
+          <div class="home__services__item home__services__icon">
+            <img src="assets/images/1.png" alt="" />
+          </div>
+          <div class="home__services__item home__services__heading">
+            <h2>Services</h2>
+          </div>
+          <div class="home__services__item home__services__icon">
+            <img src="assets/images/3.png" alt="" />
+          </div>
+        </div>
+        <div class="home__services__row home__services__second-row">
+          <div class="home__services__second-row--1">
+            <a href="services.html#library"
+              ><img
+                class="rotate--left"
+                src="assets/images/services/home_library.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="home__services__second-row--2">
+            <a href="services.html#car"
+              ><img
+                class="rotate--right"
+                src="assets/images/services/home_car.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="home__services__second-row--3">
+            <a href="services.html#classes"
+              ><img
+                class="rotate--left"
+                src="assets/images/services/home_classes.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="home__services__second-row--4">
+            <a href="services.html#food"
+              ><img
+                class="rotate--right"
+                src="assets/images/services/home_food.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="home__services__row home__services__third-row">
+          <a href="services.html"
+            ><button class="home__services__button">More Info</button></a
+          >
+        </div>
+      </div>
+
+      <div class="home__events">
+        <div class="home__events__text">
+          <h2>What's On</h2>
+          <p>
+            Girgarre Community Cottage holds both regular and one off events
+          </p>
+        </div>
+
+        <div class="home__events__container">
+          <div class="home__events__item--event1">
+            <img src="assets/images/square/event2square.jpg" alt="" />
+          </div>
+          <div class="home__events__item--event2">
+            <img src="assets/images/events/eventcarols.jpg" alt="" />
+          </div>
+          <div class="home__events__item--event3">
+            <img src="assets/images/square/event3square.png" alt="" />
+          </div>
+          <div class="home__events__item--event4">
+            <img src="assets/images/events/eventtrip.jpg" alt="" />
+          </div>
+          <div class="homeEvent__item--blank"></div>
+
+          <div class="home__events__item--icon1">
+            <img src="assets/images/event1.png" alt="" />
+          </div>
+          <div class="home__events__item--icon2">
+            <img src="assets/images/event2.png" alt="" />
+          </div>
+          <div class="home__events__item--button">
+            <a href="whatsOn.html"
+              ><button class="home__events__button">More info</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="home__bPatch">
+        <div class="home__bPatch__container">
+          <div class="home__bPatch__item1">The Butterfly Patch</div>
+          <div class="home__bPatch__item2">
+            <img src="assets/images/butterflies.png" alt="" />
+          </div>
+          <div class="home__bPatch__item3">
+            <img src="assets/images/bpatch.png" alt="" />
+          </div>
+          <div class="home__bPatch__item4">
+            The butterfly patch is the Cottage's very own vegetable pantry With
+            the help of some wonderful volunteers and some very generous grants
+            we were able to plant a prolific garden on premise...
+          </div>
+          <div class="home__bPatch__item5">
+            <a href="butterflyPatch.html"
+              ><button class="home__bPatch__button">Read more</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="home__newsletter">
+        <h2 class="home__newsletter__title">Sign up for our newsletter</h2>
+        <div class="home__newsletter__mailchimp"></div>
+
+        <div class="home__newsletter__container">
+          <a href="https://www.facebook.com/GirgarreCommunityCottage"
+            ><img
+              class="home__newsletter__container__item"
+              src="assets/icons/fbpurple.png"
+              alt="facebook icon"
+          /></a>
+
+          <a href="https://www.instagram.com/girgarrecommunitycottage/"
+            ><img
+              class="home__newsletter__container__item"
+              src="assets/icons/insta.png"
+              alt="instagram icon"
+            />
+          </a>
+
+          <p class="home__newsletter__container__item">follow us</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer">
+      <div class="footer__greenLine"></div>
+      <div class="footer__container1">
+        <div class="footer__container1__inTouch">
+          <h3 class="footer__container1__inTouch__text">Get in Touch</h3>
+          <p>here</p>
+          <a href="contact.html"
+            ><button class="footer__container1__inTouch__button">
+              Contact
+            </button></a
+          >
+        </div>
+        <div class="footer__container1__hours">
+          <h3 class="footer__container1__hours__title">Business Hours</h3>
+          <ul class="footer__container1__hours__times">
+            <li>Mon - Thurs</li>
+            <li>10am - 3pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__text">
+        <p>
+          Girgarre Community Cottage is a Neighbourhood House located in
+          Girgarre, Central Victoria
+        </p>
+        <p>© Girgarre Community Group 2023</p>
+      </div>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/GirgarreCommunityCottage"
+          ><img
+            class="home__newsletter__container__item"
+            src="assets/icons/fb_green.png"
+            alt="facebook icon"
+        /></a>
+
+        <a href="https://www.instagram.com/girgarrecommunitycottage/"
+          ><img
+            class="home__newsletter__container__item"
+            src="assets/icons/instaGreen.png"
+            alt="instagram icon"
+        /></a>
+      </div>
+      <div class="footer__container2">
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/Vic-logo-black.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/GirgarreGroup_logo.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/girgarre.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/hub.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/nh.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/BPatch_logo.png"
+          alt=""
+        /><img src="" alt="" />
+      </div>
+    </div>
+
+    <br />
+  </body>
+</html>

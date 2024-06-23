@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girgarre Community Cottage - Neighbourhood House</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/script.js" defer></script>
+     <script src="/services.js" defer></script>
+  </head>
+  <body onload="back_to_top()">
+    <a href="#" id="back-to-top" class="back-to-top"
+      ><img src="assets/icons/arrow_top.png" alt=""
+    /></a>
+
+    <button
+      class="mobile-navbar-toggle"
+      aria-controls="navbar__list"
+      aria-expanded="false"
+    ></button>
+
+    <nav class="navbar">
+      <ul class="navbar__list" id="navbar__list" data-visible="false">
+        <li class="navbar__list__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="navbar__list__item navbar__list__item--active">
+          <a href="services.html">Services</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="whatsOn.html">What's On</a>
+        </li>
+        <div class="dropdown">
+          <a href="contribute.html"
+            ><button class="navbar__list__item dropbtn">Contribute</button></a
+          >
+          <div class="dropdown-content">
+            <a href="volunteer.html">Volunteer</a>
+            <a href="giveBack.html">Give Back</a>
+            <a href="butterflyPatch.html">The Butterfly Patch</a>
+          </div>
+        </div>
+        <li class="navbar__list__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header">
+<a href="index.html"><h1 class="header__title">Girgarre Community Cottage</h1></a>      <div class="greenLine"></div>
+      <div class="flex__twoItem">
+        <div class="flex__twoItem--1">
+          <ul class="header__list">
+            <li class="header__list__item">Come</li>
+            <li class="header__list__item">to</li>
+            <li class="header__list__item">the </li>
+            <li class="header__list__item">Cottage</li>
+            <li class="header__list__item">for...</li>
+          </ul>
+        </div>
+        <div class="header__img flex__twoItem--1">
+          <img src="assets/images/headerhero.png" alt="" />
+        </div>
+        <div class="header__logo">
+          <a href="index.html"
+            ><img src="assets/images/LOGOMONOCHROME.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="greenLineShort"></div>
+    </div>
+
+    <main>
+      <h2 class="servicesHeading">Services we provide</h2>
+      <div class="services">
+        <div class="services__item services__item--library">
+  
+  <h2 class="services__heading" id="library">
+            <span class=services__heading--bold>L</span>ibrary <br />
+            <span class=services__heading--bold>S</span>ervices
+          </h2>
+          <div
+            class="services__modal services__modal--library"
+            id="libraryModal"
+          >
+            <div class="services__modal--content">
+              <span class="services__close services__close--library">X</span>
+              <p>
+                The Girgarre Library has a small selection of books and access
+                to 3 million books via Campaspe library. You can sign up for a
+                library card, browse our selection or order books with our staff
+                We also have a street library in front of the Cottage for
+                community members to borrow and swap books. Printing,
+                photocopying and laminating are available at a small cost.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/square/streetlibrarysquare.JPEG"
+            alt="The Girgarre Cottage Street Library, a big red fridge full of books"
+            class="services__image"
+          />
+          <button
+            class="services__button services__button__purple"
+            id="libraryBtn"
+          >
+            more info
+          </button>
+          </div>
+        
+       
+        <div class="services__item services__item--classes">
+          <h2 class="services__heading" id="classes">
+           <span class=services__heading--bold>C</span>lasses &<br />
+            <span class=services__heading--bold>A</span>ctivities
+          </h2>
+          <div
+            class="services__modal services__modal--classes"
+            id="classesModal"
+          >
+            <div class="services__modal--content">
+              <span class="services__close services__close--classes">X</span>
+              <p>
+                There are a variety of local groups to meet up with other
+                members for a fun class or activity, such as: Line Dancing
+                Playgroup 🌟Quilting/Patchwork 🌟Strength & Balance 🌟Words on
+                Wheels 🌟Garden Gurus 🌟Ukelele Group 🌟Carpet Bowls * Bingo *
+                Senior lunches
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/square/classessquare.jpg"
+            alt="Ladies doing Tai Chi at the Girgarre Community Cottage"
+            class="services__image"
+          />
+          <button
+            class="services__button services__button__green"
+            id="classesBtn"
+          >
+            more info
+          </button>
+        </div>
+
+        <div class="services__item services__item--car">
+          <h2 class="services__heading" id="car"><span class=services__heading--bold>C</span>ommunity <br /><span class=services__heading--bold>C</span>ar</h2>
+          <div class="services__modal services__modal--car" id="carModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--car">X</span>
+              <p>
+                The car is available to transport community members to medical
+                appointments locally or further afield to Melbourne or Bendigo.
+                All it takes is a call to the Girgarre Cottage with the details
+                and we arrange the driver. The car is driven by volunteers who
+                will take the passenger to their appointment, wait for them,
+                then drive home again. There is a charge for this service. More
+                drivers are always needed. Full induction is provided and a meal
+                allowance is given to the driver for longer trips. Please call
+                the Cottage on 03 5854 6482 to enquire about becoming a
+                volunteer driver.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/square/carsquare.jpg"
+            alt="a volunteer driving a white vehicle with the Girgarre Community Car logo on the drivers door"
+            class="services__image"
+          />
+          <button class="services__button services__button__orange" id="carBtn">
+            more info
+          </button>
+        </div>
+        <div class="services__item services__item--meals">
+          <h2 class="services__heading"><span class=services__heading--bold>M</span>eals & <br /><span class=services__heading--bold>S</span>ocialising</h2>
+          <div class="services__modal services__modal--meals" id="mealsModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--meals">X</span>
+              <p>
+                Each week Girgarre Seniors meet up to socialise and have lunch
+                either onsite at the Girgarre Community Cottage or hop on a bus
+                for an outing offsite. Lovely meals are cooked and delivered to
+                community members that may be ill or incapacitated and confined
+                to their homes. Also, we organise and cater for special
+                gatherings/events, for example, the Australia Day Awards or
+                Australia’s Biggest Morning Tea. A monthly community meal is
+                held in Stanhope on the 1st Friday of each month. RSVP on 03
+                5857 2866 the week before for numbers.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/services/meals2.png"
+            alt="an overhead view of a hand drawn style image of people eating a meal at a large table."
+            class="services__image"
+          />
+          <button class="services__button" id="mealsBtn">more info</button>
+        </div>
+        <div class="services__item services__item--assist">
+          <h2 class="services__heading">
+            <span class=services__heading--bold>G</span>eneral <br />
+            <span class=services__heading--bold>A</span>ssistance
+          </h2>
+          <div class="services__modal services__modal--assist" id="assistModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--assist">X</span>
+              <p>
+                A computer hub is available for use by community members free of
+                cost (except small charges for downloads/printing) or we can
+                help out with computer needs/technical help.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/services/computer.png"
+            alt="A claymation image of a younger person helping an older person an a computer"
+            class="services__image"
+          />
+          <button
+            class="services__button services__button__green"
+            id="assistBtn"
+          >
+            more info
+          </button>
+        </div>
+        <div class="services__item services__item--garden">
+          <h2 class="services__heading"><span class=services__heading--bold>C</span>ommunity <br /><span class=services__heading--bold>G</span>arden</h2>
+          <div class="services__modal services__modal--garden" id="gardenModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--garden">X</span>
+              <p>
+                The Happy Harvest Community Garden, in the front yard of the
+                Cottage, provides fresh produce available to all community
+                members. The Garden is maintained by volunteers and funded by
+                grants and donations.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/square/bounty_square.jpg"
+            alt="A crate full of tomatoes, cucumbers, spinach and eggplant"
+            class="services__image"
+          />
+          <button
+            class="services__button services__button__purple"
+            id="gardenBtn"
+          >
+            more info
+          </button>
+        </div>
+
+        <div class="services__item services__item--cds">
+          <h2 class="services__heading"><span class=services__heading--bold>C</span>ontainer<br /><span class=services__heading--bold>D</span>eposit <span class=services__heading--bold>S</span>cheme</h2>
+          <div class="services__modal services__modal--cds" id="cdsModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--cds">X</span>
+              <p>
+                Girgarre Community Cottage is a donation partner under the CDS.
+                By donating eligible containers to the Cottage, the community
+                benefits from the 10c refund. Follow Girgarre Community Cottage
+                on Facebook or check out CDSVIC.ORG.AU for information on
+                eligible containers
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/services/cdssquare.jpg"
+            alt=""
+            class="services__image"
+          />
+          <button class="services__button" id="cdsBtn">more info</button>
+        </div>
+        <div class="services__item services__item--food">
+          <h2 class="services__heading" id="food"><span class=services__heading--bold>F</span>ood <br /><span class=services__heading--bold>A</span>ssistance</h2>
+          <div class="services__modal services__modal--food" id="foodModal">
+            <div class="services__modal--content">
+              <span class="services__close services__close--food">X</span>
+              <p>
+                We provide food parcels for community members on request.
+                Parcels include a selection of fresh produce, frozen food/meals,
+                pantry items and toiletries. We ask that you ring the Cottage on
+                03 5854 6482 to book a time for collection.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/images/services/commmeals.jpg"
+            alt="Home cooked kofta, couscous and vegetables in takeaway containers"
+            class="services__image"
+          />
+          <button
+            class="services__button services__button__orange"
+            id="foodBtn"
+          >
+            more info
+          </button>
+        </div>
+      </div>
+       </div>
+    </main>
+
+    <div class="footer">
+      <div class="footer__greenLine"></div>
+      <div class="footer__container1">
+        <div class="footer__container1__inTouch">
+          <h3 class="footer__container1__inTouch__text">Get in Touch</h3>
+          <p>here</p>
+          <a href="contact.html"
+            ><button class="footer__container1__inTouch__button">
+              Contact
+            </button></a
+          >
+        </div>
+        <div class="footer__container1__hours">
+          <h3 class="footer__container1__hours__title">Business Hours</h3>
+          <ul class="footer__container1__hours__times">
+            <li>Mon - Thurs</li>
+            <li>10am - 3pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__text">
+        <p>
+          Girgarre Community Cottage is a Neighbourhood House located in
+          Girgarre, Central Victoria
+        </p>
+        <p>© Girgarre Community Group 2023</p>
+      </div>
+      <div class="footer__socials">
+             <a href="https://www.facebook.com/GirgarreCommunityCottage"><img
+            class="home__newsletter__container__item"
+            src="assets/icons/fb_green.png"
+            alt="facebook icon"
+          /></a>
+
+          <a href="https://www.instagram.com/girgarrecommunitycottage/"><img
+            class="home__newsletter__container__item"
+            src="assets/icons/instaGreen.png"
+            alt="instagram icon"
+          /></a>
+
+      </div>
+      <div class="footer__container2">
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/Vic-logo-black.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/GirgarreGroup_logo.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/girgarre.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/hub.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/nh.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/BPatch_logo.png"
+          alt=""
+        /><img src="" alt="" />
+      </div>
+    </div>
+
+    <br />
+  </body>
+</html>

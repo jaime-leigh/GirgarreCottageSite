@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girgarre Community Cottage - Neighbourhood House</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="contact.js" defer></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body onload="back_to_top()">
+    <a href="#" id="back-to-top" class="back-to-top"
+      ><img src="assets/icons/arrow_top.png" alt=""
+    /></a>
+
+    <button
+      class="mobile-navbar-toggle"
+      aria-controls="navbar__list"
+      aria-expanded="false"
+    ></button>
+
+      <nav class="navbar">
+      <ul class="navbar__list" id="navbar__list" data-visible="false">
+        <li class="navbar__list__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="services.html">Services</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="whatsOn.html">What's On</a>
+        </li>
+        <div class="dropdown">
+          <a href="contribute.html"
+            ><button
+              class="navbar__list__item dropbtn"
+            >
+              Contribute
+            </button></a
+          >
+          <div class="dropdown-content">
+            <a href="volunteer.html">Volunteer</a>
+            <a href="giveBack.html">Give Back</a>
+            <a href="butterflyPatch.html">The Butterfly Patch</a>
+          </div>
+        </div>
+        <li class="navbar__list__item  navbar__list__item--active">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header">
+<a href="index.html"><h1 class="header__title">Girgarre Community Cottage</h1></a>      <div class="greenLine"></div>
+      <div class="flex__twoItem">
+        <div class="flex__twoItem--1">
+          <ul class="header__list">
+            <li class="header__list__item">Assistance</li>
+            <li class="header__list__item">Laughter</li>
+            <li class="header__list__item">Friends</li>
+            <li class="header__list__item">Learning</li>
+            <li class="header__list__item">Support</li>
+          </ul>
+        </div>
+        <div class="header__img flex__twoItem--1">
+          <img src="assets/images/headerhero.png" alt="" />
+        </div>
+        <div class="header__logo">
+ <a href="index.html"
+            ><img src="assets/images/LOGOMONOCHROME.png" alt=""
+          /></a>        </div>
+      </div>
+      <div class="greenLineShort"></div>
+    </div>
+
+    <main>
+      <div class="contact">
+        <div class="contact__details">
+          <h2>Contact Us</h2>
+          <p>27 Olympic Street, Girgarre VIC 3624, Australia</p>
+          <p>03 5854 6482</p>
+
+        </div>
+        <div class="contact__form" >
+          <form
+            action="https://api.web3forms.com/submit" method="POST"
+            class="contact__form__left" id="contact__form"
+          >
+            <div class="contact__form__left--title">
+              <h2>Or send us a message here</h2>
+           
+            </div>
+            <input type="hidden" name="access_key" value="5e72f85b-01e5-4866-a0ef-ff310f761fcd">
+           
+           
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact__form__left--inputs"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              class="contact__form__left--inputs"
+              required
+            />
+            <textarea
+              name="message"
+              id=""
+              placeholder="Your Message"
+              class="contact__form__left--inputs"
+              rows="7"
+              required
+            ></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+           <div class="h-captcha" data-captcha="true"></div>
+           <button class="contact__form__left--button" type="submit">Submit</button>
+              
+            </button>
+          </form>
+          <div class="contact__form__right">
+            <div class="contact__map">
+              <h2>Visit Us</h2>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3211.602753054318!2d144.97727027642225!3d-36.394609572365646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad859f27a88e6a1%3A0x7adc6b8628b301a3!2sGirgarre%20Community%20Cottage!5e0!3m2!1sen!2sau!4v1717727558092!5m2!1sen!2sau"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+    <div class="footer footer__green">
+      <div class="footer__container1">
+        <div
+          class="footer__container1__inTouch footer__container1__inTouch--green"
+        >
+          <h3 class="footer__container1__inTouch__text">Get in Touch</h3>
+          <p>here</p>
+          <a href="contact.html"
+            ><button class="footer__container1__inTouch__button">
+              Contact
+            </button></a
+          >
+        </div>
+        <div class="footer__container1__hours">
+          <h3 class="footer__container1__hours__title">Business Hours</h3>
+          <ul class="footer__container1__hours__times">
+            <li>Mon - Thurs</li>
+            <li>10am - 3pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__text">
+        <p>
+          Girgarre Community Cottage is a Neighbourhood House located in
+          Girgarre, Central Victoria
+        </p>
+        <p>© Girgarre Community Group 2023</p>
+      </div>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/GirgarreCommunityCottage"
+          ><img
+            class="home__newsletter__container__item"
+            src="assets/icons/fb_green.png"
+            alt="facebook icon"
+        /></a>
+
+        <a href="https://www.instagram.com/girgarrecommunitycottage/"
+          ><img
+            class="home__newsletter__container__item"
+            src="assets/icons/instaGreen.png"
+            alt="instagram icon"
+        /></a>
+      </div>
+      <div class="footer__container2">
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/Vic-logo-black.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/GirgarreGroup_logo.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/girgarre.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/hub.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/nh.png"
+          alt=""
+        />
+        <img
+          class="footer__container2__logos"
+          src="assets/icons/BPatch_logo.png"
+          alt=""
+        /><img src="" alt="" />
+      </div>
+    </div>
+ 
+
+
+
+   <script src="https://web3forms.com/client/script.js" async defer></script>
+   <script>
+const form = document.getElementById('contact__form');
+
+form.addEventListener('submit', function(e) {
+
+    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+
+    if (!hCaptcha) {
+        e.preventDefault();
+        alert("Please fill out captcha field")
+        return
+    }
+});
+</script>
+
+  </body>
+</html>
