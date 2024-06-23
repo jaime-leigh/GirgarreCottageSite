@@ -352,7 +352,7 @@ a {
     background-color: transparent;
     display: block;
     position: absolute;
-    background-image: url("../../assets/icons/menu.png");
+    background-image: url("assets/icons/menu.png");
     background-size: cover;
     border: 0;
     width: 3em;
