@@ -346,7 +346,7 @@ a {
     transform: translateX(0%);
   }
   .mobile-navbar-toggle[aria-expanded=true] {
-    background-image: url("../../assets/icons/close.png");
+    background-image: url("assets/icons/close.png");
   }
   .mobile-navbar-toggle {
     background-color: transparent;
